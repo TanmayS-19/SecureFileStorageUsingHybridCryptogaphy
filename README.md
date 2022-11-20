@@ -1,7 +1,11 @@
 # SecureFileStorageUsingHybridCryptogaphy
+
 Clone this Git Repository using "Visual Studio Code"
+
 RUN app.py 
+
 Enjoy the Website
+
 
 Methodology-
 
