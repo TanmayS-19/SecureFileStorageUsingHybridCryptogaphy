@@ -1,0 +1,23 @@
+<html>
+	<head style="text-align: center;">
+		<title>Download File</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+  		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+	</head>
+
+	<body style="text-align: center;">
+		<div>
+			<h1 class="heading-sample" style="padding-top: 70px;">Secure File Storage Using Hybrid Cryptography</h1><br>
+			<h2 class="heading-sample1" style="padding-top: 30px;">Download File</h2><br>
+			<img class="download" src="https://cdn-icons-png.flaticon.com/512/4021/4021729.png" alt="style/images/download.png" width="100px">
+			
+		</div>
+
+			<form action = "/download_data" method = "POST" enctype = "multipart/form-data">Upload Key File 
+				<input type = "file" name = "file" required/>
+				<br><br><input class="btn1" style="border: none;" type = "submit"/>
+			</form>
+	</body>
+</html>
