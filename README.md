@@ -4,6 +4,7 @@ RUN app.py
 Enjoy the Website
 
 Methodology-
+
 In this project we've taken several cryptographic algorithms like 
 ChaCha20Poly1305, AESGCM, Fernet and AESCCM to securely 
 encrypt the uploaded file. 
